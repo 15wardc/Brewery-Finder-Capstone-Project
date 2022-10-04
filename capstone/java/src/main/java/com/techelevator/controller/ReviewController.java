@@ -22,8 +22,6 @@ public class ReviewController {
         beerDAO.addReview(review);
     }
 
-    @GetMapping("/beer/{id}/reviews")
-    public List<Review> getReviewsByBeerId(@PathVariable int id) {
-        return beerDAO.getReviewsByBeerId(id);
-    }
+//    @GetMapping("/beer/{id}/reviews")
+//    public List<Review> getReviews
 }
